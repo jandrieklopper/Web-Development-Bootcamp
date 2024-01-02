@@ -58,3 +58,63 @@ a:link {
     font-weight: 600;
     line-height: 1.4em;
 }
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1;
+}
+
+.left-column {
+    background-color: #003147;
+    color: white;
+}
+
+.section-title {
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 1.4em;
+}
+
+.contact-icons, .icons-small {
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+}
+
+.icons-xl {
+    display: inline-block;
+    width: 30px;
+    font-size: 24px;
+}
+
+ /* Light blue color for all icons */
+.contact-icons, .icons-small, .icons-xl {
+    color: #03a9f4;
+}
+
+a:link {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #03a9f4;
+  }
+
+/* Dark blue color for section titles in the right column */
+.right-column h2, h3 {
+    color: #003147;
+}
+
+.right-column h3{
+    font-size: 1em;
+    margin-top: 20px;
+    font-weight: 600;
+    line-height: 1.4em;
+}
